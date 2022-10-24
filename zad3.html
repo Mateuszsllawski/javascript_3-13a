@@ -1,0 +1,71 @@
+ <head>
+ <title> zad 3 </title>
+ <script language="JavaScript">
+ 
+  function okno_zamknij_slawski() 
+ {
+ window.close()
+ }
+ 
+ </script>
+ </head>
+<body>
+<span style="font-size: 6mm" > <b>
+Rodzaje okienek: <br>
+</span> </b>
+- Okienko alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK, <br>
+- Okienko prompt – generująca okno, w którym użytkownik może wpisać wartość, zwracaną 
+  następnie do programu. <br>
+- Okienko confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm).<br><br>
+
+
+
+<span style="font-size: 6mm" > <b>
+Konwersja zmiennych <br>
+</span> </b>
+
+Wczytanie zmiennej z użyciem prompt wykonywane jest jako ciąg znaków dlatego konieczna jest <br>
+konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia. <br>
+- parseFloat(zmienna) - konwersja zmiennej do typu float <br>
+- parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego) <br>
+- toString(zmienna) - konwersja zmiennej do typu łańcuchowego <br> <br>
+
+
+
+<span style="font-size: 6mm" > <b>
+Typy zmiennych w Javascript <br>
+</span> </b>
+
+<u>W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy <br>
+zmiennych są definiowane w trakcie ich przypisywania. </u> <br><br>
+Podstawowe zmienne liczbowe w JavaScript to:<br>
+Number -> Typ liczbowy<br>
+- zmienna całkowite<br>
+- zmiennoprzecinkowe<br>
+String -> Typ tekstowy<br>
+Boolea -> Typ logiczny<br>
+Null -> Pusta zawartość<br>
+Undefined -> Typ niezidentyfikowany<br>
+Object -> Obiekt<br><br>
+
+
+
+<span style="font-size: 6mm" > <b>
+Typy zmiennych w Javascript <br>
+</span> </b>
+
+1. Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez <br>
+polskich znaków), cyfry oraz "$" i "_".<br>
+<u>Poprawne nazwy zmiennych:</u> zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz<br>
+<u>Błędne nazwy zmiennych:</u> 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz, <br>
+wysokość, imie+nazwisko.<br>
+2. Wielkość liter ma znaczenie.<br>
+<u>Rekord i rekord</u> to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie <br>
+początkujących programistów.<br>
+3. Należy nie używać słów kluczowych JavaScript jako nazw zmiennych.<br><br>
+
+
+
+   <input type="button" value="zamknij okno" onclick="okno_zamknij_slawski()"/>
+</body>
+</html>

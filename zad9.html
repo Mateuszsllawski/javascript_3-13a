@@ -1,0 +1,19 @@
+<html>
+<body>
+<div style="color:green;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("dzień 1=","");
+var liczba3=prompt("godzina 1=","");
+var liczba2=prompt("dzień 2=","");
+var liczba4=prompt("godzina 2=","");
+var ile_sekund_sla;
+var D1_sla=parseFloat(liczba1);
+var G1_sla=parseFloat(liczba3);
+var D2_sla=parseFloat(liczba2);
+var G2_sla=parseFloat(liczba4);
+ile_sekund_sla=(D1_sla-D2_sla)*24*3600+(G1_sla-G2_sla)*3600;
+document.write("ile_s="+D1_sla+" i "+D2_sla+" = "+ile_sekund_sla+"<br>");
+</script>
+</div>
+</body>
+</html>
